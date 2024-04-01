@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="M-box Trending TV Shows & Trending Movies">
+
+  <title>M-box</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="fonts/stylesheet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- HEADER  -->
+    <header class="header">
+      <section class="content header__content">
+        <a class="header__home" href="#">
+          <img src="./img/logo.svg" alt="M-box logo">
+        </a>
+        <nav class="menu header__menu">
+          <ul class="nav">
+            <li><a class="nav__link active" href="#">Home</a></li>
+            <li><a class="nav__link" href="#">TV Shows</a></li>
+            <li><a class="nav__link" href="#">Movies</a></li>
+            <li><a class="nav__link" href="#">Series</a></li>
+          </ul>
+        </nav>
+        <div class="header__user-block">
+          <a href="#">
+            <img src="./img/search.svg" alt="M-box search">
+          </a>
+          <a href="#">
+            <img src="./img/notification.svg" alt="M-box notification">
+          </a>
+          <a href="#">
+            <img src="./img/user.svg" alt="M-box user">
+          </a>
+        </div>
+        <button class="header__burger">
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </section>
+    </header>
+    <main>
+
+      <!-- MAIN INFO  -->
+      <section class="main-info">
+        <img class="main-info__bg" src="./img/hero-banner.webp" alt="Zack Snyder's Justice League">
+        <h1 class="main-info__title">
+          Zack Snyder's Justice League
+        </h1>
+        <div class="main-info__rating">
+          <span>2021</span>
+          <span>18+</span>
+          <span>4h 2min</span>
+          <span>8.8
+            <img class="star" src="./img/star.svg" alt="star rating">
+          </span>
+        </div>
+        <p class="main-info__sub-title">
+          Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana
+          Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of
+          catastrophic proportions.
+        </p>
+        <div class="main-info__buttons">
+          <button class="watch">
+            <img src="./img/play-btn.svg" alt="play-btn">
+            Watch
+          </button>
+          <button class="more-inf">More information</button>
+        </div>
+      </section>
+
+      <!-- TRENDING SHOWS  -->
+      <section class="trending section">
+        <h2>Trending TV Shows
+          <span></span>
+        </h2>
+        <div class="swiper">
+          <div class="trending__container swiper-wrapper">
+            <div class="block swiper-slide"><img src="./img/show-1.webp" alt="After "></div>
+            <div class="block swiper-slide"><img src="./img/show-2.webp" alt="Emancaption"></div>
+            <div class="block swiper-slide"><img src="./img/show-3.webp" alt="Dunkirk"></div>
+            <div class="block swiper-slide"><img src="./img/show-4.webp" alt="The enormity of life"></div>
+            <div class="block swiper-slide"><img src="./img/show-5.webp" alt="Vanitas"></div>
+            <div class="block swiper-slide"><img src="./img/show-6.webp" alt="Something like perfect"></div>
+          </div>
+        </div>
+        <h2>Trending TV Movies
+          <span></span>
+        </h2>
+        <div class="swiper">
+          <div class="trending__container swiper-wrapper">
+            <div class="block swiper-slide"><img src="./img/movie-1.webp" alt="After "></div>
+            <div class="block swiper-slide"><img src="./img/movie-2.webp" alt="Emancaption"></div>
+            <div class="block swiper-slide"><img src="./img/movie-3.webp" alt="Dunkirk"></div>
+            <div class="block swiper-slide"><img src="./img/movie-4.webp" alt="The enormity of life"></div>
+            <div class="block swiper-slide"><img src="./img/movie-5.webp" alt="Vanitas"></div>
+            <div class="block swiper-slide"><img src="./img/movie-6.webp" alt="Something like perfect"></div>
+          </div>
+        </div>
+        <button class="trending__btn">See more</button>
+      </section>
+
+      <!-- GENRES  -->
+      <section class="genres section">
+        <h2>Popular Genres
+          <span></span>
+        </h2>
+        <div class="swiper-genres">
+          <div class="genres__container swiper-wrapper">
+            <div class="genres__block swiper-slide romance">
+              <img src="./img/romace.svg" alt="Romance">
+              <p>Romnce</p>
+            </div>
+            <div class="genres__block swiper-slide drama">
+              <img src="./img/drama.svg" alt="Drama">
+              <p>Drama</p>
+            </div>
+            <div class="genres__block swiper-slide historical">
+              <img src="./img/historical.svg" alt="Historical">
+              <p>Drama</p>
+            </div>
+            <div class="genres__block swiper-slide action">
+              <img src="./img/action.svg" alt="Action">
+              <p>Action</p>
+            </div>
+            <div class="genres__block swiper-slide sci-fi">
+              <img src="./img/sci-fi.svg" alt="Sci-fi">
+              <p>Drama</p>
+            </div>
+            <div class="genres__block swiper-slide horror">
+              <img src="./img/horror.svg" alt="Horror">
+              <p>Horror</p>
+            </div>
+            <div class="genres__block swiper-slide comedy">
+              <img src="./img/comedy.svg" alt="Comedy">
+              <p>Comedy</p>
+            </div>
+            <div class="genres__block swiper-slide documentary">
+              <img src="./img/documentary.svg" alt="Documentary">
+              <p>Documentary</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ARTIST -->
+      <section class="actors section">
+        <h2>Popular Actors & Directors
+          <span></span>
+        </h2>
+        <div class="swiper-actors">
+          <div class="actors__container swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="actors__block ">
+                <img src="./img/actor-1.webp" alt="Samantha Bowen">
+              </div>
+              <p>Samantha Bowen</p>
+
+            </div>
+            <div class="swiper-slide">
+              <div class="actors__block ">
+                <img src="./img/actor-2.webp" alt="Rhys Birch">
+              </div>
+              <p>Rhys Birch</p>
+
+            </div>
+            <div class="swiper-slide">
+              <div class="actors__block ">
+                <img src="./img/actor-3.webp" alt="James Holloway">
+              </div>
+              <p>James Holloway</p>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="actors__block">
+                <img src="./img/actor-4.webp" alt="Joshua Walton">
+              </div>
+              <p>Joshua Walton</p>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="actors__block ">
+                <img src="./img/actor-5.webp" alt="Patrick Elliott">
+              </div>
+              <p>Patrick Elliott</p>
+
+            </div>
+
+            <div class="swiper-slide">
+              <div class="actors__block ">
+                <img src="./img/actor-6.webp" alt="Morgan O'Neill">
+              </div>
+              <p>Morgan O'Neill</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- NEWS  -->
+      <section class="news section">
+        <div class="news__container">
+          <div class="news__block">
+            <img src="./img/big-buck-bunny.webp" alt="Big buck bunny">
+          </div>
+          <div class="news__block">
+            <img src="./img/year.gif" alt="2021 year">
+            <p>Coming Soon...</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- REGISTRATE -->
+      <section class="registrate section">
+        <h2>Are You New Here ? <br>
+          Don’t wait, Register Now. </h2>
+        <button class="registrate__btn">Register Now</button>
+      </section>
+    </main>
+
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__block">
+          <img src="./img/logo.svg" alt="M-box logo">
+        </div>
+        <div class="footer__block">
+          <ul class="footer__links">
+            <li><a href="#">Voice over and Subtitle</a></li>
+            <li><a href="#">Media Center </a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Voice Description</a></li>
+            <li><a href="#">Investor Relations</a></li>
+            <li><a href="#">Legal Provisions</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Job Opportunities</a></li>
+            <li><a href="#">Cookies Preferences</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Corporate Informations</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- add Jquery -->
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <!-- add SWIPER  -->
+  <script src="
+  https://cdn.jsdelivr.net/npm/swiper@11.1.0/swiper-bundle.min.js
+  "></script>
+  <link href="
+  https://cdn.jsdelivr.net/npm/swiper@11.1.0/swiper-bundle.min.css
+  " rel="stylesheet">
+  <!-- add JSscript-->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
