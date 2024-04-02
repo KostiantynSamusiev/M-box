@@ -91,11 +91,9 @@ document.addEventListener('DOMContentLoaded', function () {
             // or/and do nothing
             return;
             // else if a small viewport and single column layout needed
-        } else if (breakpoint.matches === false) {
-            // fire small viewport version of swiper
-            return enableSwiper();
         }
     };
+
 
     // keep an eye on viewport size changes
     breakpoint.addListener(breakpointChecker);
