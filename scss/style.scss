@@ -574,6 +574,7 @@ h2::before {
  
 }
 .footer {
+
   background-color: #101012;
   margin: 0 -16px;
   padding: 0 16px;
@@ -589,6 +590,13 @@ h2::before {
       display: block;
       padding: 5px 0;
      }
+   }
+
+   &__block:nth-child(1){
+    a {
+      opacity: 1;
+
+    }
    }
 
  &__block:nth-child(2){
